@@ -3,10 +3,12 @@
 #include "IntArr.h"
 #include "exception.h"
 
+
+
 int main()
 {
     setlocale(LC_ALL, "");
-
+    
     try
     {
         Arr<double> array(10);
